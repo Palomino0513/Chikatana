@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Chikatana_Slider>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Chikatana_ReactJs/>
+            </depends>
+        </Chikatana_Slider>
+    </modules>
+</config>
