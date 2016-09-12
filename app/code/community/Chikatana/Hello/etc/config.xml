@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    <one line to give the program's name and a brief idea of what it does.>
+    ockCopyright (C) 2016 Jose Ivan Palomino
+
+    This file is part of Foobar.
+
+    Foobar is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Foobar is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<config>
+    <modules>
+        <Chikatana_Hello>
+            <version>0.1.0</version>
+        </Chikatana_Hello>
+    </modules>
+    <global>
+        <blocks>
+            <reactjs_hello>
+                <class>Chikatana_Hello_Block</class>
+            </reactjs_hello>
+        </blocks>
+        <helpers>
+            <reactjs_hello>
+                <class>Chikatana_Hello_Helper</class>
+            </reactjs_hello>
+        </helpers>
+    </global>
+    <frontend>
+        <routers>
+            <reactjs_hello>
+                <use>standard</use>
+                <args>
+                    <module>Chikatana_Hello</module>
+                    <frontName>chikatana_hello</frontName>
+                </args>
+            </reactjs_hello>
+        </routers>
+        <layout>
+            <updates>
+                <reactjs_hello>
+                    <file>chikatana_hello.xml</file>
+                </reactjs_hello>
+            </updates>
+        </layout>
+    </frontend>
+</config>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Chikatana_ReactJs>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Chikatana_ReactJs>
+    </modules>
+</config>

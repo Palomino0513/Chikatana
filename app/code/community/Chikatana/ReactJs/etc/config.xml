@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    <one line to give the program's name and a brief idea of what it does.>
+    ockCopyright (C) 2016 Jose Ivan Palomino
+
+    This file is part of Foobar.
+
+    Foobar is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Foobar is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<config>
+    <modules>
+        <Chikatana_ReactJs>
+            <version>0.0.1</version>
+        </Chikatana_ReactJs>
+    </modules>
+    <global>
+        <blocks>
+            <reactjs>
+                <class>Chikatana_ReactJs_Block</class>
+            </reactjs>
+        </blocks>
+        <helpers>
+            <reactjs>
+                <class>Chikatana_ReactJs_Helper</class>
+            </reactjs>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <reactjs>
+                    <file>chikatana_react.xml</file>
+                </reactjs>
+            </updates>
+        </layout>
+    </frontend>
+</config>
