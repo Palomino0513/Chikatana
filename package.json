@@ -23,7 +23,8 @@
   },
   "scripts": {
     "build": "npm run build_chikatana_hello",
-    "build_chikatana_hello": "browserify skin/frontend/base/default/js/chikatana/hello/sections/reactjs_hello_hello_index.js -t babelify -o skin/frontend/base/default/js/chikatana/hello/build/build.js",
+    "build_chikatana_hello_hello": "browserify skin/frontend/base/default/js/chikatana/hello/sections/reactjs_hello_hello_index.js -t babelify -o skin/frontend/base/default/js/chikatana/hello/build/hello_build.js",
+    "build_chikatana_hello_info": "browserify skin/frontend/base/default/js/chikatana/hello/sections/reactjs_hello_hello_info.js -t babelify -o skin/frontend/base/default/js/chikatana/hello/build/info_build.js",
     "build_chikatana_slider": "browserify skin/frontend/base/default/js/chikatana/slider/sections/chikatana_slider_slider_index.js -t babelify -o skin/frontend/base/default/js/chikatana/slider/build/build.js",
     "build_cmspage": "browserify skin/frontend/base/default/react/sections/cmspage_page_index.js -t babelify -o skin/frontend/base/default/react/build/cmspage_page_index.js"
   },
