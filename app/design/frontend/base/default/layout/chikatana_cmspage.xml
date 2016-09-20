@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <cmspage_page_index translate="label">
+        <label>Ejemplo ReactJs</label>
+
+        <reference name="root">
+            <action method="setTemplate"><template>cmspage/react_page.phtml</template></action>
+        </reference>
+
+        <reference name="content">
+            <block type="core/template" name="cmspage.page.content" template="cmspage/sections/content.phtml" />
+            <block type="core/template" name="cmspage.page.script" template="cmspage/pages/cmspage_page_index.phtml" />
+        </reference>
+    </cmspage_page_index>
+</layout>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <chikatana_slider_slider_index translate="label">
+        <label>Slider</label>
+
+        <reference name="root">
+            <action method="setTemplate"><template>chikatana/reactjs/types/empty.phtml</template></action>
+        </reference>
+
+        <reference name="content">
+            <block type="chikatana_slider/slider" name="reactjs.content" />
+        </reference>
+
+        <reference name="jsfooter">
+            <action method="addItem"><type>skin_js</type><name>js/chikatana/slider/build/build.js</name></action>
+        </reference>
+    </chikatana_slider_slider_index>
+</layout>
