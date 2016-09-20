@@ -5,10 +5,10 @@
         <meta content="utf-8" http-equiv="encoding">
         <?php echo $this->getChildHtml('head') ?>
     </head>
-    <body class="page-empty <?php echo $this->getBodyClass()?$this->getBodyClass():'' ?>">
-        <div>
+    <body class="page-empty <?php echo $this->getBodyClass() ? $this->getBodyClass() : '' ?>">
+        <section>
             <?php echo $this->getChildHtml('content') ?>
-        </div>
+        </section>
         <footer>
             <?php echo $this->getChildHtml('before_body_end') ?>
         </footer>
